@@ -4,7 +4,7 @@ App-GitHooks-Plugin-RubyCompile
 [![Build Status](https://travis-ci.org/jacobmaurer/App-GitHooks-Plugin-RubyCompile.png?branch=master)](https://travis-ci.org/jacobmaurer/App-GitHooks-Plugin-RubyCompile)
 [![Coverage Status](https://coveralls.io/repos/jacobmaurer/App-GitHooks-Plugin-RubyCompile/badge.png?branch=master)](https://coveralls.io/r/jacobmaurer/App-GitHooks-Plugin-RubyCompile?branch=master)
 
-App::GitHooks plugin to prevent committing code with #NOCOMMIT mentions.
+App::GitHooks plugin to verify that staged Ruby files compile.
 
 
 INSTALLATION
