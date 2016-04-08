@@ -5,7 +5,7 @@ use warnings;
 
 use Capture::Tiny;
 use Test::Exception;
-use Test::Git;
+use Test::Requires::Git;
 use Test::More;
 
 use App::GitHooks::Test qw( ok_add_files ok_setup_repository );
@@ -45,7 +45,7 @@ my $tests =
 ];
 
 # Bail out if Git isn't available.
-has_git();
+test_requires_git();
 plan( tests => scalar( @$tests ) );
 
 foreach my $test ( @$tests )
